@@ -25,7 +25,7 @@
 
 
   <title>Dissecting Dissonance: Benchmarking Large Multimodal Models Against Self-Contradictory Instructions</title>
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="static/images/light-saber.png">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
 
@@ -47,73 +47,74 @@
 <body>
 
 
-  <section class="hero">
-    <div class="hero-body">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered">
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Dissecting Dissonance: Benchmarking Large Multimodal Models Against Self-Contradictory Instructions</h1>
+          <div class="is-size-5 publication-authors">
+            <!-- Paper authors -->
+            <span class="author-block">
+              <a href="https://jingao.online/" target="_blank">Jin Gao</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Lei Gan</a><sup>*</sup><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Yuankai Li</a><sup>*</sup><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://jingao.online/" target="_blank">Yixin Ye</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://dequan.wang" target="_blank">Dequan Wang</a><sup>†</sup><sup>1,3</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">1 Shanghai Jiao Tong University<br>2 Fudan University<br>3 Shanghai Artificial Intelligence Laboratory</span>
+            <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution<br><sup>†</sup>Indicates Corresponding Author</small></span>
+            <span class="author-block">The 18th European Conference on Computer Vision ECCV 2024</span>
+          </div>
+
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Dissecting Dissonance: Benchmarking Large Multimodal Models Against Self-Contradictory Instructions</h1>
-            <div class="is-size-5 publication-authors">
-              <!-- Paper authors -->
-              <span class="author-block">
-                <a href="https://jingao.online/" target="_blank">Jin Gao</a><sup>1</sup>,
-              </span>
-              <span class="author-block">
-                <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Lei Gan</a><sup>*</sup><sup>2</sup>,
-              </span>
-              <span class="author-block">
-                <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Yuankai Li</a><sup>*</sup><sup>2</sup>,
-              </span>
-              <span class="author-block">
-                <a href="https://jingao.online/" target="_blank">Yixin Ye</a><sup>1</sup>,
-              </span>
-              <span class="author-block">
-                <a href="https://dequan.wang" target="_blank">Dequan Wang</a><sup>†</sup><sup>1,3</sup>,
-              </span>
-            </div>
+            <div class="publication-links">
+              <!-- Arxiv PDF link -->
+              <!-- <span class="link-block">
+                <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                  <span>Paper</span>
+                </a>
+              </span> -->
 
-            <div class="is-size-5 publication-authors">
-              <span class="author-block">1 Shanghai Jiao Tong University<br>2 Fudan University<br>3 Shanghai Artificial Intelligence Laboratory<br>The 18th European Conference on Computer Vision ECCV 2024</span>
-              <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution<br><sup>†</sup>Indicates Corresponding Author</small></span>
-            </div>
+              <!-- Dataset link -->
+              <span class="link-block">
+                <a href="https://huggingface.co/datasets/sci-benchmark/self-contradictory" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fas fa-database"></i></span>
+                  <span>Supplementary</span>
+                </a>
+              </span>
 
-            <div class="column has-text-centered">
-              <div class="publication-links">
-                <!-- Arxiv PDF link -->
-                <!-- <span class="link-block">
-                  <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon"><i class="fas fa-file-pdf"></i></span>
-                    <span>Paper</span>
-                  </a>
-                </span> -->
-
-                <!-- Dataset link -->
-                <span class="link-block">
-                  <a href="https://huggingface.co/datasets/sci-benchmark/self-contradictory" target="_blank"
+              <!-- Github link -->
+              <span class="link-block">
+                <a href="https://github.com/shiyegao/Self-Contradictory-Instructions-SCI" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon"><i class="fas fa-database"></i></span>
-                    <span>Supplementary</span>
-                  </a>
-                </span>
+                  <span class="icon"><i class="fab fa-github"></i>
+                  </span><span>Code</span>
+                </a>
+              </span>
 
-                <!-- Github link -->
-                <span class="link-block">
-                  <a href="https://github.com/shiyegao/Self-Contradictory-Instructions-SCI" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon"><i class="fab fa-github"></i>
-                    </span><span>Code</span>
-                  </a>
-                </span>
-
-                <!-- ArXiv abstract Link -->
-                <!-- <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon"><i class="ai ai-arxiv"></i></span>
-                    <span>arXiv</span>
-                  </a>
-                </span> -->
+              <!-- ArXiv abstract Link -->
+              <!-- <span class="link-block">
+                <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="ai ai-arxiv"></i></span>
+                  <span>arXiv</span>
+                </a>
+              </span> -->
             </div>
           </div>
         </div>
@@ -159,56 +160,56 @@
   <div class="hero-body">
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
+       <div class="item" style="text-align: center;">
         <!-- Your image here -->
         <img src="static/images/LL&LVDataset-Page-1.png" alt="MY ALT TEXT" width="50%" height="auto"/>
         <h2 class="subtitle has-text-centered">
           RuleConflict
         </h2>
       </div>
-      <div class="item">
+      <div class="item" style="text-align: center;">
         <!-- Your image here -->
         <img src="static/images/LL&LVDataset-Page-2.png" alt="MY ALT TEXT" width="50%" height="auto"/>
         <h2 class="subtitle has-text-centered">
           AttributeConflict
         </h2>
       </div>
-      <div class="item">
+      <div class="item" style="text-align: center;">
         <!-- Your image here -->
         <img src="static/images/LL&LVDataset-Page-3.png" alt="MY ALT TEXT" width="50%" height="auto"/>
         <h2 class="subtitle has-text-centered">
           ExclusionConflict
        </h2>
      </div>
-     <div class="item">
+     <div class="item" style="text-align: center;">
         <!-- Your image here -->
         <img src="static/images/LL&LVDataset-Page-5.png" alt="MY ALT TEXT" width="50%" height="auto"/>
         <h2 class="subtitle has-text-centered">
           ForbbidenConflict
         </h2>
     </div>
-    <div class="item">
+    <div class="item" style="text-align: center;">
         <!-- Your image here -->
         <img src="static/images/LL&LVDataset-Page-5.png" alt="MY ALT TEXT" width="50%" height="auto"/>
         <h2 class="subtitle has-text-centered">
           OCRConflict
         </h2>
     </div>
-    <div class="item">
+    <div class="item" style="text-align: center;">
       <!-- Your image here -->
       <img src="static/images/LL&LVDataset-Page-6.png" alt="MY ALT TEXT" width="50%" height="auto"/>
       <h2 class="subtitle has-text-centered">
         FigureConflict
       </h2>
     </div>
-    <div class="item">
+    <div class="item" style="text-align: center;">
       <!-- Your image here -->
       <img src="static/images/LL&LVDataset-Page-7.png" alt="MY ALT TEXT" width="50%" height="auto"/>
       <h2 class="subtitle has-text-centered">
         GeometricConflict
       </h2>
     </div>
-    <div class="item">
+    <div class="item" style="text-align: center;">
       <!-- Your image here -->
       <img src="static/images/LL&LVDataset-Page-8.png" alt="MY ALT TEXT" width="50%" height="auto"/>
       <h2 class="subtitle has-text-centered">
@@ -240,11 +241,11 @@
 
 
 <!-- Result -->
-<section class="hero is-small is-light">
+<section class="hero is-small">
   <div class="hero-body">
     <div class="container">
       <h2 class="title">Result</h2>
-      <img src="static/images/bar_vl.png" alt="MY ALT TEXT"/>
+      <img src="static/images/bar_vl.png" alt="MY ALT TEXT" width="75%" height="auto"/>
       <div class="content has-text-justified">
         <p>
           Our approach, Cognitive Awakening Prompting, improves LMMs' performance greatly. Chain-of-thoughts and self-consistency prompting bring limited improvement. Replies are evaluated by human experts for more precise results.
@@ -255,23 +256,6 @@
     </div>
   </section>
 <!--End result-->
-
-
-<!-- Method -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Data Creation</h2>
-      <img src="static/images/FlowChartV5.png" alt="MY ALT TEXT"/>
-      <div class="content has-text-justified">
-        <p>
-          We propose AutoCreate, an automatic dataset creation framework that leverages programs and large language models. AutoCreate starts fromseveral task-relevant seeds and maintains a seed pool. During each cycle, AutoCreate includes two branches, the language (left) and the vision (right). Each branch consists of a generator and a decorator. Finally, the cleaner will exclude data that does not meet the standards. The data will be fed into the seed pool for the next round after aquality check by human experts.
-        </p>
-      </div>
-    </div>
-    </div>
-  </section>
-<!--End method-->
 
 
 <!-- Paper -->
