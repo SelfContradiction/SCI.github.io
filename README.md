@@ -1,48 +1,23 @@
-# Academic Project Page Template
-This is an academic paper project page template.
+# Project Page of "Dissecting Dissonance: Benchmarking Large Multimodal Models Against Self-Contradictory Instructions"
 
+This is an academic paper project page of the ECCV 2024 paper, "Dissecting Dissonance: Benchmarking Large Multimodal Models Against Self-Contradictory Instructions".
 
-Example project pages built using this template are:
-- https://vision.huji.ac.il/spectral_detuning/
-- https://vision.huji.ac.il/podd/
-- https://dreamix-video-editing.github.io
-- https://vision.huji.ac.il/conffusion/
-- https://vision.huji.ac.il/3d_ads/
-- https://vision.huji.ac.il/ssrl_ad/
-- https://vision.huji.ac.il/deepsim/
+- Project Page: [Dissecting Dissonance: Benchmarking Large Multimodal Models Against Self-Contradictory Instructions (selfcontradiction.github.io)](https://selfcontradiction.github.io/)
+- Paper: [paper.pdf (selfcontradiction.github.io)](https://selfcontradiction.github.io/static/pdfs/paper.pdf)
+- Dataset: [sci-benchmark/self-contradictory · Datasets at Hugging Face](https://huggingface.co/datasets/sci-benchmark/self-contradictory)
+- Code: [shiyegao/Self-Contradictory-Instructions-SCI (github.com)](https://github.com/shiyegao/Self-Contradictory-Instructions-SCI)
 
+# Citation
 
+```
+@inproceedings{Gao2024dissecting,
+  title={Dissecting Dissonance: Benchmarking Large Multimodal Models Against Self-Contradictory Instructions},
+  author={Gao, Jin and Gan, Lei and Li, Yuankai and Ye, Yixin and Wang, Dequan},
+  booktitle={ECCV},
+  year={2024}
+}
+```
 
-## Start using the template
-To start using the template click on `Use this Template`.
+# Acknowledgments
 
-The template uses html for controlling the content and css for controlling the style. 
-To edit the websites contents edit the `index.html` file. It contains different HTML "building blocks", use whichever ones you need and comment out the rest.  
-
-**IMPORTANT!** Make sure to replace the `favicon.ico` under `static/images/` with one of your own, otherwise your favicon is going to be a dreambooth image of me.
-
-## Components
-- Teaser video
-- Images Carousel
-- Youtube embedding
-- Video Carousel
-- PDF Poster
-- Bibtex citation
-
-## Tips:
-- The `index.html` file contains comments instructing you what to replace, you should follow these comments.
-- The `meta` tags in the `index.html` file are used to provide metadata about your paper 
-(e.g. helping search engine index the website, showing a preview image when sharing the website, etc.)
-- The resolution of images and videos can usually be around 1920-2048, there rarely a need for better resolution that take longer to load. 
-- All the images and videos you use should be compressed to allow for fast loading of the website (and thus better indexing by search engines). For images, you can use [TinyPNG](https://tinypng.com), for videos you can need to find the tradeoff between size and quality.
-- When using large video files (larger than 10MB), it's better to use youtube for hosting the video as serving the video from the website can take time.
-- Using a tracker can help you analyze the traffic and see where users came from. [statcounter](https://statcounter.com) is a free, easy to use tracker that takes under 5 minutes to set up. 
-- This project page can also be made into a github pages website.
-- Replace the favicon to one of your choosing (the default one is of the Hebrew University). 
-- Suggestions, improvements and comments are welcome, simply open an issue or contact me. You can find my contact information at [https://pages.cs.huji.ac.il/eliahu-horwitz/](https://pages.cs.huji.ac.il/eliahu-horwitz/)
-
-## Acknowledgments
-Parts of this project page were adopted from the [Nerfies](https://nerfies.github.io/) page.
-
-## Website License
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+This page was built using the [Academic Project Page Template](https://github.com/eliahuhorwitz/Academic-project-page-template) which was adopted from the [Nerfies](https://nerfies.github.io/) project page.
